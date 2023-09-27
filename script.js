@@ -44,21 +44,22 @@ function changeName() {
   const resistanceName = document.getElementById("resistance-name");
   const resultName = document.getElementById("result-name");
 
-  if (selectValue.value == "corrente (I)") {
+  if (selectValue.value == "corrente") {
     //Se a opção for "corrende (I)" coloque os seguintes valores de entrada
     currentName.innerHTML = "Tensao (V)";
     resistanceName.innerHTML = "Resistência (Ω)";
     resultName.innerHTML = "Corrente (I)";
+    
   }
 
-  if (selectValue.value == "resistencia (Ω)") {
+  if (selectValue.value == "resistencia") {
     //Se a opção for "resistencia (Ω)"  coloqe os seguintes valores de entrada
     resistanceName.innerHTML = " Corrente (I)";
     currentName.innerHTML = "Tensão (V)";
     resultName.innerHTML = "Resistência (Ω)";
   }
 
-  if (selectValue.value == "potencia (W)") {
+  if (selectValue.value == "potencia") {
     // Se a opção for "potência (W)" coloque os seguintes valores de entrada
     currentName.innerHTML = "Tensão (V)";
     resistanceName.innerHTML = "Corrente (I)";

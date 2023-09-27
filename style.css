@@ -1,0 +1,100 @@
+/*Aplica as configurações abaixo em todo código*/
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-align: justify;
+}
+/* Aplica a configuração somente no body*/
+body {
+  background-color: aquamarine;
+}
+
+/*Realiza asconfigurações abaixo nos elemento Id*/
+.lei-de-ohm {
+  width: 200px;
+  height: 100px;
+  margin: 15px auto;
+  display: block;
+}
+
+/*Aplicando estilo no titulo*/
+h1 {
+  margin-left: 90px;
+}
+/*Aplicando estilo no paragrafo*/
+p {
+  margin: 5px 0px;
+}
+/*Aplicando estilo no logo*/
+.logo-image {
+  display: block;
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+}
+/*Aplicando estilo no menu*/
+main {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  margin: 50px auto 50px;
+  padding: 44px 24px 23px;
+}
+/*Aplicando estilo no select, e nos três inputs*/
+select,
+.first-input-value,
+.second-input-value,
+.result-value {
+  border: 1px solid #bbb;
+  background: #fff;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  appearance: none;
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #555555;
+  cursor: pointer;
+}
+
+/*Aplicando estilo no botão de reset e no botão calcular*/
+
+.button-reset,
+.button-calculate {
+  border: none;
+  background-color: #772fd3;
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 40;
+  cursor: pointer;
+  margin: 5px auto;
+  text-align: center;
+}
+/*Aplicando estilo nos botões*/
+
+button:hover {
+  opacity: 0.8;
+}
+buttton:active {
+  opacity: 0.6;
+}
+
+/*Realiza as configurações  abaixo quando o site e aberto em celulares*/
+@media screen and (max-width: 500px) {
+  .logo-image {
+    display: none;
+  }
+
+  body {
+    background-color: #f4f4f4;
+  }
+}

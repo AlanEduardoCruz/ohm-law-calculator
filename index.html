@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Calculadora Lei de ohm</title>
+</head>
+
+<body>
+  
+  <img src="./assets/raio.png" alt="Imagem de um raio " class="logo-image" />
+  <main>
+    <section>
+      <h1>Lei de Ohm</h1>
+      <img src="./assets/ohm.png" alt=" Formula da lei de ohm" class="lei-de-ohm">
+      <p>Selecione uma opção:</p>
+    </section>
+
+    <select id="select-value">
+      <option value="tensao">Tensão Elétrica (V)</option>
+      <option value="corrente">Corrente Elétrica (I)</option>
+      <option value="resistencia">Resistência Elétrica (Ω)</option>
+      <option value="potencia">Potência Elétrica (W)</option>
+    </select>
+    <label>
+      <p id="current-name">Corrente (I)</p>
+      <input class="first-input-value" placeholder="Digite um valor:" type="number" + 1 />
+      <p id="resistance-name">Resistência (Ω)</p>
+      <input class="second-input-value" placeholder="Digite um valor:" type="number" - 1 />
+
+      <button class="button-calculate">Calcular</button>
+      <button class="button-reset">Redefinir</button>
+      <p id="result-name">Tensão (V)</p>
+      <input class="result-value" placeholder="Resultado" disabled="" />
+    </label>
+    </section>
+
+  </main>
+</body>
+<script src="script.js"></script>
+
+</html>

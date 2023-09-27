@@ -61,6 +61,9 @@ select,
   font-size: 12px;
   color: #555555;
   cursor: pointer;
+  display: flex;
+
+  align-items: center;
 }
 
 /*Aplicando estilo no botão de reset e no botão calcular*/

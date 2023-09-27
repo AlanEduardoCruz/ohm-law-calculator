@@ -71,7 +71,7 @@ function changeName() {
 function resetValues() {
   fisrtInputValue.value = "";
   secondInputValue.value = "";
-  resultValue.textContent = "Resultado";
+  resultValue.textContent = "Resultado:";
 
   // Redefinir os nomes para os valores originais
   const currentName = document.getElementById("current-name");

@@ -1,5 +1,4 @@
 # ohm-law-calculator
-# ohm-law-calculator
 ## Projeto desenvolvido com objetivo de colocar em prática conteúdos aprendidos no curso de Full Stack.
 ## :black_circle: Tecnologias Utilizadas:
 

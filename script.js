@@ -12,7 +12,7 @@ function calculateValue() {
   const secondValue = parseFloat(secondInputValue.value);
 
   // Verifica se os valores são válidos
-  if (isNaN(firstValue) || isNaN(secondValue)) {
+  if (isNaN(firstValue) || isNaN(secondValue)) && (NaN(firstValue) || (NaN(secondValue))){
     resultValue.textContent = "Por favor, insira valores numéricos validos.";
   } else {
     // realizando os cálculos
@@ -66,6 +66,7 @@ function changeName() {
     resistanceName.innerHTML = "Resistência (Ω)";
     resultName.innerHTML = "Tensão (V)";
   }
+ 
 }
 // Função criada para redefinir os valores para as configurações iniciais
 function resetValues() {
